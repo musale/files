@@ -1,2 +1,2 @@
 # files
-Hosted Files :wink:
+Sample hosted Files :wink:
