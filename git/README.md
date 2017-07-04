@@ -104,7 +104,7 @@ Run the code.
 Player 1 wins
 ```
 Good code is tested code so,
-create  new file `test_game.py` and add the following ```
+create  new file `test_game.py` and add the following
 
 ```python
 """TestCase for rps game."""
@@ -128,26 +128,6 @@ class RPSRelationCase(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-```"""TestCase for rps game."""
-import unittest
-
-from homework_2 import playRockPaperScissors
-
-
-class RPSRelationCase(unittest.TestCase):
-    """RPSRelationCase unittest."""
-
-    def test_rock_paper_scissor_function(self):
-        """Test the relations between options."""
-        # Do the rest of the test cases
-        # Remember to also test for invalid arguments depending on
-        # how you will refactor your code to handle such situations
-        self.assertTrue(playRockPaperScissors("r", "r"), "Tie!")
-        self.assertEqual(playRockPaperScissors("r", "p"), "Player 1 wins")
-
-
-if __name__ == '__main__':
-    unittest.main()
 ```
 
 Run our tests
