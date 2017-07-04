@@ -209,3 +209,5 @@ SSH key allows us to connect to github (and any other server that is) securely.
 
 Use [this guide to add SSH key into github](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
  and the re-run `git push origin master`
+
+ When you check the repo you created on github, it should have the three files you created!
