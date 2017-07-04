@@ -132,7 +132,7 @@ if __name__ == '__main__':
 
 Run our tests
 ```
-> python test
+> python test_game.py
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
